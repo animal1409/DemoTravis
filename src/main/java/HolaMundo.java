@@ -13,4 +13,10 @@ public class HolaMundo {
    public void setSaludo(String saludo) {
         this.saludo = saludo;
     }
+
+    public String metododos()
+    {
+
+        return "este es el metodo dos ";
+    }
 }

@@ -10,4 +10,13 @@ public class HolaMundoTester {
         Assert.assertEquals("hola mudo",objValue);
     }
 
+    @Test
+    public void ProbarMetodoDos()
+    {
+        HolaMundo hola2 = new HolaMundo("hola mudo");
+        Assert.assertEquals("este es el metodo dos ", hola2.metododos());
+    }
+
+
+
 }
