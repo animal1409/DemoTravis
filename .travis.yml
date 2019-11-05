@@ -1,1 +1,9 @@
-mvn test -B
+language: java
+sudo: false # faster builds
+cache:
+  directories:
+    - $HOME/.m2
+jdk:
+  - oraclejdk8
+
+install: travis_wait 30 mvn install
