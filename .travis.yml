@@ -1,16 +1,7 @@
-#language: java
-#sudo: false # faster builds
-#
-#cache:
-#  directories:
-#    - $HOME/.m2
-#jdk:
-#  - oraclejdk11
-#
-#install: travis_wait 30 mvn install
-
 
 language: java
+cache:
+  directories:
+    - $HOME/.m2
 jdk: oraclejdk11
 install: true
-script: ./mvnw clean install
